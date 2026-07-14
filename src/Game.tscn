@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://7tsvv2ogbboq"]
+
+[ext_resource type="Script" uid="uid://c4olmc5gk8r7t" path="res://src/Game.cs" id="1_17mmo"]
+
+[node name="Control" type="Control" unique_id=504646149]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_17mmo")
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=290454191]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=237828019]
+layout_mode = 2
+
+[node name="TestButton" type="Button" parent="CenterContainer/VBoxContainer" unique_id=1403385036]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Test Button"
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/TestButton" to="." method="OnTestButtonPressed"]
