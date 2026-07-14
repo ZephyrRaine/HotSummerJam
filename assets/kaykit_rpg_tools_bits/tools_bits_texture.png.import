@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dy0reb4r67l4q"
 path.s3tc="res://.godot/imported/tools_bits_texture.png-cd9857f10d364e157a75018bfcd79a2b.s3tc.ctex"
+path.etc2="res://.godot/imported/tools_bits_texture.png-cd9857f10d364e157a75018bfcd79a2b.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/kaykit_rpg_tools_bits/tools_bits_texture.png"
-dest_files=["res://.godot/imported/tools_bits_texture.png-cd9857f10d364e157a75018bfcd79a2b.s3tc.ctex"]
+dest_files=["res://.godot/imported/tools_bits_texture.png-cd9857f10d364e157a75018bfcd79a2b.s3tc.ctex", "res://.godot/imported/tools_bits_texture.png-cd9857f10d364e157a75018bfcd79a2b.etc2.ctex"]
 
 [params]
 

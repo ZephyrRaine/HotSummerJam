@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkfmnlmill3h"
 path.s3tc="res://.godot/imported/resource_bits_texture.png-2c2e4bb90982b6026656905b6ced258c.s3tc.ctex"
+path.etc2="res://.godot/imported/resource_bits_texture.png-2c2e4bb90982b6026656905b6ced258c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/kaykit_resource_bits/resource_bits_texture.png"
-dest_files=["res://.godot/imported/resource_bits_texture.png-2c2e4bb90982b6026656905b6ced258c.s3tc.ctex"]
+dest_files=["res://.godot/imported/resource_bits_texture.png-2c2e4bb90982b6026656905b6ced258c.s3tc.ctex", "res://.godot/imported/resource_bits_texture.png-2c2e4bb90982b6026656905b6ced258c.etc2.ctex"]
 
 [params]
 
